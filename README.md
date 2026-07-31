@@ -22,6 +22,7 @@
 | 连接 | SPI1 |
 
 ### 接线
+值得一提的是如果你手上的是跟我型号相同的显示屏，显示屏背面是自带引脚的，直接将PICO一整个插入即可
 
 | Pico 2W | e-Paper |
 |---------|---------|
@@ -104,7 +105,10 @@ curl http://YOUR_SERVER_IP/api.php?action=all
 | `?action=done&idx=0` | POST | 标记第 N 项完成 |
 | `?action=undone&idx=0` | POST | 取消完成 |
 | `?action=clear_done` | POST | 清除已完成项 |
-
+##你也许会遇到的问题
+-在我使用的时候，PICO疑似只能连接2.4G的无线网络
+-而且网络的加密不能太复杂，WPA2PSK是可以兼容的
+-而且好像自动分配DHCP也有点问题，所以我在代码里直接手动分配了一个地址
 ## 截图
 
 | 墨水屏 | Web 界面 |
