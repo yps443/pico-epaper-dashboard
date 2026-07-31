@@ -2,7 +2,7 @@
 
 > 基于 Raspberry Pi Pico 2 W + Waveshare 2.66" 三色墨水屏的个人仪表盘，DeepSeek API 余额物理化展示 + 待办管理。
 
-![screen](docs/screen.jpg)
+![screen](/screen.jpg)
 
 ## 功能
 
