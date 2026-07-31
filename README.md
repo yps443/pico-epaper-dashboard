@@ -109,7 +109,7 @@ curl http://YOUR_SERVER_IP/api.php?action=all
 
 | 墨水屏 | Web 界面 |
 |:---:|:---:|
-| ![screen](docs/screen.jpg) | ![web](docs/web.jpg) |
+| ![screen](/screen.jpg) | ![web](/web.jpg) |
 
 ## 技术细节
 
