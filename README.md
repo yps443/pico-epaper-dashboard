@@ -49,6 +49,7 @@
   http://192.168.3.250
 ```
 
+-关于为啥不直接在PICO上调用deepseek的API，是因为PICO貌似并没有SSL,所以只能在电脑或者其它服务器上设置一个服务端
 - Pico 通过原始 socket（无 SSL）GET/POST → PHP 服务端
 - PHP 服务端代理 DeepSeek HTTPS API，存储待办到 JSON 文件
 - Pico 运行微型 HTTP 服务器，手机浏览器直接连接操控
